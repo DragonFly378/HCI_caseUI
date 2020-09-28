@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Sequel Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sequel Regular'), url('Sequel_Demo.woff') format('woff');
+    }
+
+.nav{
+        background-image: url(../images/nav.png);
+        height: 580px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+}
+
+.HCI{
+    margin-top: 20px;
+
+    .Logo{
+        font-family: 'Sequel Regular' !important;
+        font-weight: normal;
+        font-size: 40px;
+        text-align: left;
+        color: #000;
+    
+    }
+}
+
+.section-kelompok2{
+    margin-top: 72px;
+    h2{
+        font-family: "Playfair Display";
+        font-weight: bold;
+        font-size: 42px;
+        color: #190264;
+
+    }
+    hr{
+        width: 270px;
+        height: 6px;
+        border-radius: 3px;
+        background: #190264;
+
+    }
+}
+
+
+.section-nama-anggota{
+    margin-top: 36px;
+    justify-content: center;
+    margin-bottom: 170px;
+    
+
+    .card-anggota{
+        padding: 50px 55px 28px;
+        border-radius: 11px;
+        border: 1px solid #05276b;
+        min-width: 352px;
+        min-height: 474px;
+        
+
+        .anggota-konten{
+            h3{
+                margin-top: 20px;
+                font-family: Assistant;
+                font-weight: 600;
+                font-size: 23px;
+                line-height: 30px;
+                text-align: center;
+                color: #101e5a;
+            }
+            p.NIM{
+                margin-top: 37px;
+                font-family: Assistant;
+                font-weight: normal;
+                font-size: 23px;
+                line-height: 30px;
+                text-align: center;
+                color: #000f4a;
+
+            }
+            p.univ{
+                font-family: Assistant;
+                font-weight: 300;
+                font-size: 22px;
+                line-height: 30px;
+                text-align: center;
+                color: #000f4a;
+
+            }
+            hr{
+                margin-top: 43px;
+                margin-bottom: 27px;
+                margin-left: -56px;
+                margin-right: -56px;
+                background-color:  #05276b;
+            }
+        }
+        
+    }
+}
+
+
+.section-task1{
+    .card-task{ 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #568ad9;
+        transform: translate(0, -40px);
+    
+        h2{
+            font-family: Assistant;
+            font-weight: bold;
+            font-size: 40px;
+            color: #fff;
+
+        }
+    }
+}
+
+.section-task2{
+    .card-task{ 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #a956d9;
+        transform: translate(0, -40px);
+    
+        h2{
+            font-family: Assistant;
+            font-weight: bold;
+            font-size: 40px;
+            color: #fff;
+
+        }
+    }
+}
