@@ -130,4 +130,22 @@
   font-size: 40px;
   color: #fff;
 }
+
+.section-task3 .card-task {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fcba03;
+  -webkit-transform: translate(0, -40px);
+          transform: translate(0, -40px);
+}
+
+.section-task3 .card-task h2 {
+  font-family: Assistant;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
